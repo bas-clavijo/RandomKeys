@@ -1,3 +1,11 @@
+:root {
+    --fondo: #212139;
+    --footer: #0a141d;
+    --footer2: #0a1a2a;
+    --texto: #ffffff;
+    --texto2: #000000;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -12,7 +20,7 @@
 }
 
 body {
-    background: #212139;
+    background: var(--fondo);
     color: #fff;
 }
 
